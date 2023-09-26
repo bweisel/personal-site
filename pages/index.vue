@@ -3,58 +3,25 @@
     <!-- Page Wrapper-->
     <div class="p-8 relative max-w-screen-xl xs:p-24">
       <!-- About Me-->
-      <div class="block pt-12 md:flex">
-        <div class="pb-6 md:w-full md:max-w-150 md:p-0">
-          <h2
-            class="font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase"
-          >
-            About Me
-          </h2>
+      <Section :title="'About Me'">
+        <div class="mb-6">
+          <p>{{ about }}</p>
         </div>
-        <div
-          class="flex-none text-lg text-gray-600 font-light md:flex-1 md:pl-20"
-        >
-          <div class="mb-6">
-            <p>{{ about }}</p>
-          </div>
-        </div>
-      </div>
+      </Section>
 
       <!-- Experience -->
-      <div class="block pt-12 md:flex">
-        <div class="pb-6 md:w-full md:max-w-150 md:p-0">
-          <h2
-            class="font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase"
-          >
-            Experience
-          </h2>
-        </div>
-        <div
-          class="flex-none text-lg text-gray-600 font-light md:flex-1 md:pl-20"
-        >
-          <ExperienceItem
-            v-for="experience in experiences"
-            :key="experience.name"
-            :experience="experience"
-          />
-        </div>
-      </div>
+      <Section :title="'Experience'">
+        <ExperienceItem
+          v-for="experience in experiences"
+          :key="experience.name"
+          :experience="experience"
+        />
+      </Section>
 
       <!-- Skills -->
-      <div class="block pt-12 md:flex">
-        <div class="pb-6 md:w-full md:max-w-150 md:p-0">
-          <h2
-            class="font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase"
-          >
-            Skills
-          </h2>
-        </div>
-        <div
-          class="flex-none text-lg text-gray-600 font-light md:flex-1 md:pl-20"
-        >
-          <SkillItem v-for="skill in skills" :key="skill.name" :skill="skill" />
-        </div>
-      </div>
+      <Section :title="'Skills'">
+        <SkillItem v-for="skill in skills" :key="skill.name" :skill="skill" />
+      </Section>
     </div>
   </div>
 </template>
