@@ -33,7 +33,7 @@
             LinkedIn
           </NuxtLink>
         </li>
-        <li class="inline list-none pr-4">
+        <li class="inline list-none pr-3">
           <NuxtLink
             class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
             :to="profile.twitter"
@@ -41,12 +41,18 @@
             Twitter
           </NuxtLink>
         </li>
+        <li class="inline list-none">
+          <ArrowTopRightOnSquareIcon
+            class="inline-block -mt-1 h-4 w-4 text-gray-600"
+          />
+        </li>
       </ul>
     </div>
   </div>
 </template>
 
 <script setup>
+import { ArrowTopRightOnSquareIcon } from "@heroicons/vue/24/solid";
 const props = defineProps({
   profile: {
     type: Object,
