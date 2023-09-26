@@ -32,14 +32,14 @@ const profile = ref({
   name: "Ben Weisel",
   image: "/headshot.png",
   subLine:
-    "Principal software engineer and leader with an expertise in developing advanved data-driven applications of all shapes and sizes.",
+    "Principal software engineer and leader with an expertise in developing advanced data-driven applications of all shapes and sizes.",
   twitter: "https://twitter.com/bweisel",
   github: "https://github.com/bweisel",
   linkedin: "https://www.linkedin.com/in/benweisel/",
 });
 
 const about = ref(
-  "Currently building advanced NBA Analytics for Cleaning the Glass. Based in Denver, CO."
+  "Currently building cutting-edge NBA Basketball Analytics at Cleaning the Glass. Based in Denver, CO."
 );
 
 const skills = ref([
