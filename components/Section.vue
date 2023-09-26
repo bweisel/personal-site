@@ -1,5 +1,5 @@
 <template>
-  <div class="block pt-12 md:flex">
+  <div class="block pt-8 md:flex">
     <div class="pb-6 md:w-full md:max-w-150 md:p-0">
       <h2
         class="font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase"
