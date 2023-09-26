@@ -1,7 +1,10 @@
 <template>
-  <div>
-    <div>{{ skill.name }}</div>
-    <div>{{ skill.description }}</div>
+  <div class="mb-6">
+    <h3 class="font-semibold text-gray-900 pb-1">
+      {{ skill.name }}
+    </h3>
+
+    <p class="text-md text-gray-600 font-light">{{ skill.description }}</p>
   </div>
 </template>
 
