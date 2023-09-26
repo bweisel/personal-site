@@ -4,8 +4,7 @@
     <div class="p-8 relative max-w-screen-xl xs:p-24">
       <!-- About Me-->
       <div class="block pt-12 md:flex">
-        <div class="pb-6 md:w-100 md:max-w-150 md:p-0">
-          <!-- TODO fix the md:w-100 part -->
+        <div class="pb-6 md:w-full md:max-w-150 md:p-0">
           <h2
             class="font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase"
           >
@@ -23,8 +22,7 @@
 
       <!-- Experience -->
       <div class="block pt-12 md:flex">
-        <div class="pb-6 md:w-100 md:max-w-150 md:p-0">
-          <!-- TODO fix the md:w-100 part -->
+        <div class="pb-6 md:w-full md:max-w-150 md:p-0">
           <h2
             class="font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase"
           >
@@ -44,8 +42,7 @@
 
       <!-- Skills -->
       <div class="block pt-12 md:flex">
-        <!-- TODO fix the md:w-100 part -->
-        <div class="pb-6 md:w-100 md:max-w-150 md:p-0">
+        <div class="pb-6 md:w-full md:max-w-150 md:p-0">
           <h2
             class="font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase"
           >
@@ -66,6 +63,7 @@
 const about = ref(
   "Currently building advanced NBA Analytics for Cleaning the Glass. Based in Denver, CO."
 );
+
 const skills = ref([
   {
     name: "Languages",
