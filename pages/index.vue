@@ -37,6 +37,7 @@
 <script setup>
 const profile = ref({
   name: "Ben Weisel",
+  title: "Principal Software Engineer",
   image: "/headshot.png",
   subLine:
     "Principal software engineer and leader with an expertise in developing advanced data-driven applications of all shapes and sizes.",
@@ -149,4 +150,13 @@ const projects = ref([
     link: "https://www.nflmargins.com",
   },
 ]);
+
+useSeoMeta({
+  title: () => `${profile.value.name} - ${profile.value.title}`,
+  ogTitle: () => `${profile.value.name} - ${profile.value.title}`,
+  description: () => `${profile.value.subLine}`,
+  ogDescription: () => `${profile.value.subLine}`,
+  ogImage: () => `https://benweisel.com${profile.value.image}`,
+  twitterCard: "summary_large_image",
+});
 </script>
