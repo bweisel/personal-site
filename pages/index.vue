@@ -3,7 +3,7 @@
     <!-- Page Wrapper-->
     <div class="p-8 relative max-w-screen-xl xs:p-24">
       <!-- Header-->
-      <Header :profile="profile"></Header>
+      <Header :profile="profile" />
 
       <!-- About Me-->
       <Section :title="'About Me'">
@@ -39,7 +39,7 @@
 <script setup>
 const profile = ref({
   name: "Ben Weisel",
-  title: "Principal Software Engineer",
+  title: "Software Engineer",
   image: "/headshot.png",
   subLine:
     "Principal software engineer and leader with an expertise in developing advanced data-driven applications of all shapes and sizes.",
@@ -159,6 +159,6 @@ useSeoMeta({
   description: () => `${profile.value.subLine}`,
   ogDescription: () => `${profile.value.subLine}`,
   ogImage: () => `https://benweisel.com${profile.value.image}`,
-  twitterCard: "summary_large_image",
+  twitterCard: "summary",
 });
 </script>
