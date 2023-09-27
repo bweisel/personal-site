@@ -49,7 +49,7 @@ const profile = ref({
 });
 
 const about = ref(
-  "Currently building cutting-edge NBA Basketball Analytics at Cleaning the Glass. Based in Denver, CO."
+  "Currently building cutting-edge NBA basketball analytics at Cleaning the Glass. Based in Denver, CO."
 );
 
 const skills = ref([
@@ -87,7 +87,7 @@ const experiences = ref([
     endDate: "Present",
     link: "https://www.cleaningtheglass.com",
     description:
-      "I lead the development of Cleaning the Glass's NBA Basketball Analytics platform.",
+      "I lead the development of the backend, data pipelines, and infrastructure for Cleaning the Glass's NBA analytics platform.",
   },
   {
     company: "Tall Tree Software",
@@ -105,7 +105,7 @@ const experiences = ref([
     endDate: "Apr. 2022",
     link: "https://www.linkedin.com/company/uplightenergy/",
     description:
-      "I led the engineering deparment for Uplight's Demand Side Management (DSM) business unit.",
+      "I led the engineering deparment for Uplight's Orchestrated Energy (Demand Response) business unit.",
   },
   {
     company: "Tendril",
