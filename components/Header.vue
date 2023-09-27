@@ -21,6 +21,7 @@
           <NuxtLink
             class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
             :to="profile.github"
+            target="_blank"
           >
             GitHub
           </NuxtLink>
@@ -29,6 +30,7 @@
           <NuxtLink
             class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
             :to="profile.linkedin"
+            target="_blank"
           >
             LinkedIn
           </NuxtLink>
@@ -37,6 +39,7 @@
           <NuxtLink
             class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
             :to="profile.twitter"
+            target="_blank"
           >
             Twitter
           </NuxtLink>
