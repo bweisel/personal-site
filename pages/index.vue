@@ -81,7 +81,7 @@ const experiences = ref([
   {
     company: "Cleaning the Glass",
     title: "Principal Software Engineer",
-    startDate: "April 2022",
+    startDate: "Apr. 2022",
     endDate: "Present",
     link: "https://www.cleaningtheglass.com",
     description:
@@ -90,7 +90,7 @@ const experiences = ref([
   {
     company: "Tall Tree Software",
     title: "Founder",
-    startDate: "April 2022",
+    startDate: "Apr. 2022",
     endDate: "Present",
     link: "https://benweisel.com",
     description:
@@ -99,8 +99,8 @@ const experiences = ref([
   {
     company: "Uplight",
     title: "Director of Engineering",
-    startDate: "March 2020",
-    endDate: "April 2022",
+    startDate: "Mar. 2020",
+    endDate: "Apr. 2022",
     link: "https://www.linkedin.com/company/uplightenergy/",
     description:
       "I led the engineering deparment for Uplight's Demand Side Management (DSM) business unit.",
@@ -108,8 +108,8 @@ const experiences = ref([
   {
     company: "Tendril",
     title: "Engineering Manager",
-    startDate: "January 2018",
-    endDate: "March 2020",
+    startDate: "Nov. 2017",
+    endDate: "Mar. 2020",
     link: "https://www.linkedin.com/company/tendril/",
     description:
       "I managed two engineering teams: one responsible for Tendril's main data pipelines, and the other a full-stack team responsible for building out Tendril's new customer-facing products.",
@@ -117,8 +117,8 @@ const experiences = ref([
   {
     company: "",
     title: "Lead Software Engineer",
-    startDate: "January 2016",
-    endDate: "Nov 2018",
+    startDate: "Jan. 2016",
+    endDate: "Nov. 2017",
     link: "https://www.linkedin.com/company/tendril/",
     description:
       "I led the engineering efforts to launch multiple new products for Tendril, including Online Energy Assessments and an Energy Real Estate API.",
@@ -126,8 +126,8 @@ const experiences = ref([
   {
     company: "Publicis Sapient",
     title: "Lead Software Engineer",
-    startDate: "September 2012",
-    endDate: "January 2016",
+    startDate: "Sept. 2012",
+    endDate: "Jan. 2016",
     link: "https://www.linkedin.com/company/publicissapient/",
     description:
       "I was the lead engineer on a variety of projects for Samsung, including relaunching Samsung.com and building out the Samsung+ app.",
@@ -135,8 +135,8 @@ const experiences = ref([
   {
     company: "Rosetta Marketing Group",
     title: "Software Engineer",
-    startDate: "June 2010",
-    endDate: "September 2012",
+    startDate: "Jun 2010",
+    endDate: "Sept 2012",
     link: "https://www.linkedin.com/company/rosetta/",
     description:
       "I worked on large-scale eCommerce projects for a variety of clients, most notably Scholastic Books.",
