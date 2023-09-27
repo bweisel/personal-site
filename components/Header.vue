@@ -5,6 +5,8 @@
         class="rounded-full transform transition-all duration-150 hover:scale-105"
         :src="profile.image"
         :alt="profile.name"
+        width="150"
+        height="150"
       />
     </div>
     <div class="flex-none pt-6 md:pt-1 md:flex-1 md:pl-20">
