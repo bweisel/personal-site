@@ -2,7 +2,9 @@
   <div class="relative">
     <!-- Page Wrapper-->
     <div class="p-8 relative max-w-screen-xl xs:p-24">
+      <!-- Header-->
       <Header :profile="profile"></Header>
+
       <!-- About Me-->
       <Section :title="'About Me'">
         <About :about="about" />
@@ -135,8 +137,8 @@ const experiences = ref([
   {
     company: "Rosetta Marketing Group",
     title: "Software Engineer",
-    startDate: "Jun 2010",
-    endDate: "Sept 2012",
+    startDate: "Jun. 2010",
+    endDate: "Sept. 2012",
     link: "https://www.linkedin.com/company/rosetta/",
     description:
       "I worked on large-scale eCommerce projects for a variety of clients, most notably Scholastic Books.",
