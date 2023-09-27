@@ -9,7 +9,7 @@
         {{ experience.company }}
       </NuxtLink>
     </h3>
-    <p class="text-base/4 text-gray-600 font-bold mb-2">
+    <p class="text-base/6 text-gray-600 font-bold mb-1">
       {{ experience.title }}
       <span class="text-gray-900 font-light">
         ({{ experience.startDate }} - {{ experience.endDate }})

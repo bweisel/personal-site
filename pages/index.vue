@@ -115,7 +115,7 @@ const experiences = ref([
       "I managed two engineering teams: one responsible for Tendril's main data pipelines, and the other a full-stack team responsible for building out Tendril's new customer-facing products.",
   },
   {
-    company: "Tendril",
+    company: "",
     title: "Lead Software Engineer",
     startDate: "January 2016",
     endDate: "Nov 2018",
