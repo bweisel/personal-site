@@ -146,7 +146,7 @@ const projects = ref([
   {
     name: "NFL Margins",
     description: "Host free NFL Margin pools with your friends.",
-    link: "https://nflmargins.com",
+    link: "https://www.nflmargins.com",
   },
 ]);
 </script>
