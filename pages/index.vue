@@ -5,9 +5,7 @@
       <Header :profile="profile"></Header>
       <!-- About Me-->
       <Section :title="'About Me'">
-        <div class="mb-6">
-          <p>{{ about }}</p>
-        </div>
+        <About :about="about" />
       </Section>
 
       <!-- Experience -->
@@ -16,6 +14,15 @@
           v-for="experience in experiences"
           :key="experience.name"
           :experience="experience"
+        />
+      </Section>
+
+      <!-- Projects -->
+      <Section :title="'Projects'">
+        <ProjectItem
+          v-for="project in projects"
+          :key="project.name"
+          :project="project"
         />
       </Section>
 
@@ -50,7 +57,7 @@ const skills = ref([
   {
     name: "Frameworks",
     description:
-      "Flask, FastAPI, SQLAlchemy, Prefect, DBT, TailwindCSS, Vue.js, Nuxt.js",
+      "Flask, FastAPI, SQLAlchemy, Prefect, DBT, Airflow, TailwindCSS, Vue.js, Nuxt.js",
   },
   {
     name: "Databases & Storage",
@@ -60,45 +67,86 @@ const skills = ref([
   {
     name: "Cloud & DevOps",
     description:
-      "Amazon Web Services (AWS), Google Cloud Platform (GCP), Docker, Terraform, CI / CD",
+      "Amazon Web Services (AWS), Google Cloud Platform (GCP), Docker, CloudFormation, GitHub Actions",
   },
   {
     name: "Other",
     description:
-      "Data Pipeline (ETL/ELT) Development, Microservices, API Design, Data Modeling, Data Warehousing, Data Science & Analytics",
+      "Product Development, System Design, Data Modeling, Data Pipeline Architecture, Data Warehousing, Data Science & Analytics",
   },
 ]);
 
 const experiences = ref([
   {
-    name: "Cleaning the Glass",
-    description: "Software Architect; April 2022 - Present",
+    company: "Cleaning the Glass",
+    title: "Principal Software Engineer",
+    startDate: "April 2022",
+    endDate: "Present",
     link: "https://www.cleaningtheglass.com",
+    description:
+      "I lead the development of Cleaning the Glass's NBA Basketball Analytics platform.",
   },
   {
-    name: "Tall Tree Software",
-    description: "Founder; April 2022 - Present",
-    link: "https://www.benweisel.com",
+    company: "Tall Tree Software",
+    title: "Founder",
+    startDate: "April 2022",
+    endDate: "Present",
+    link: "https://benweisel.com",
+    description:
+      "I provide consulting services for data engineering, software development, and leadership.",
   },
   {
-    name: "Uplight",
-    description: "Director of Engineering; March 2020 - April 2022",
+    company: "Uplight",
+    title: "Director of Engineering",
+    startDate: "March 2020",
+    endDate: "April 2022",
     link: "https://www.linkedin.com/company/uplightenergy/",
+    description:
+      "I led the engineering deparment for Uplight's Demand Side Management (DSM) business unit.",
   },
   {
-    name: "Tendril",
-    description: "Engineering Manager; January 2016 - March 2020",
+    company: "Tendril",
+    title: "Engineering Manager",
+    startDate: "January 2018",
+    endDate: "March 2020",
     link: "https://www.linkedin.com/company/tendril/",
+    description:
+      "I managed two engineering teams: one responsible for Tendril's main data pipelines, and the other a full-stack team responsible for building out Tendril's new customer-facing products.",
   },
   {
-    name: "Publicis Sapient",
-    description: "Lead Software Engineer; September 2012 - January 2016",
+    company: "Tendril",
+    title: "Lead Software Engineer",
+    startDate: "January 2016",
+    endDate: "Nov 2018",
+    link: "https://www.linkedin.com/company/tendril/",
+    description:
+      "I led the engineering efforts to launch multiple new products for Tendril, including Online Energy Assessments and an Energy Real Estate API.",
+  },
+  {
+    company: "Publicis Sapient",
+    title: "Lead Software Engineer",
+    startDate: "September 2012",
+    endDate: "January 2016",
     link: "https://www.linkedin.com/company/publicissapient/",
+    description:
+      "I was the lead engineer on a variety of projects for Samsung, including relaunching Samsung.com and building out the Samsung+ app.",
   },
   {
-    name: "Rosetta Marketing Group",
-    description: "Software Engineer; June 2010 - September 2012",
+    company: "Rosetta Marketing Group",
+    title: "Software Engineer",
+    startDate: "June 2010",
+    endDate: "September 2012",
     link: "https://www.linkedin.com/company/rosetta/",
+    description:
+      "I worked on large-scale eCommerce projects for a variety of clients, most notably Scholastic Books.",
+  },
+]);
+
+const projects = ref([
+  {
+    name: "NFL Margins",
+    description: "Host free NFL Margin pools with your friends.",
+    link: "https://nflmargins.com",
   },
 ]);
 </script>

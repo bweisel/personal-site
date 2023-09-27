@@ -1,11 +1,23 @@
 <template>
   <div class="mb-6">
-    <h3 class="font-semibold text-gray-900 pb-1">
-      <NuxtLink :to="experience.link" class="hover:underline hover:text-black">
-        {{ experience.name }}
+    <h3 class="font-semibold text-gray-900 mb-2">
+      <NuxtLink
+        :to="experience.link"
+        class="hover:underline hover:text-black"
+        target="_blank"
+      >
+        {{ experience.company }}
       </NuxtLink>
     </h3>
-    <p class="text-md text-gray-600 font-light">{{ experience.description }}</p>
+    <p class="text-base/4 text-gray-600 font-bold mb-2">
+      {{ experience.title }}
+      <span class="text-gray-900 font-light">
+        ({{ experience.startDate }} - {{ experience.endDate }})
+      </span>
+    </p>
+    <p class="text-md text-gray-600">
+      {{ experience.description }}
+    </p>
   </div>
 </template>
 

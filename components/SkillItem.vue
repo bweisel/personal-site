@@ -4,7 +4,7 @@
       {{ skill.name }}
     </h3>
 
-    <p class="text-md text-gray-600 font-light">{{ skill.description }}</p>
+    <p class="text-md text-gray-600">{{ skill.description }}</p>
   </div>
 </template>
 
