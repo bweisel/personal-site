@@ -136,7 +136,7 @@ const experiences = ref([
       "I was the lead engineer on a variety of projects for Samsung, including relaunching Samsung.com and building out the Samsung+ app.",
   },
   {
-    company: "Rosetta Marketing Group",
+    company: "",
     title: "Software Engineer",
     startDate: "Jun. 2010",
     endDate: "Sept. 2012",
