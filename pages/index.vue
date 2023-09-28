@@ -41,16 +41,16 @@ const profile = ref({
   name: "Ben Weisel",
   email: "ben@talltreesoftware.io",
   title: "Software Engineer",
-  image: "/headshot.png",
+  image: "headshot.png",
   subLine:
-    "Principal software engineer and leader with an expertise in developing advanced data-driven applications of all shapes and sizes.",
+    "Software engineer and leader with an expertise in developing advanced data-driven applications of all shapes and sizes.",
   twitter: "https://twitter.com/bweisel",
   github: "https://github.com/bweisel",
   linkedin: "https://www.linkedin.com/in/benweisel/",
 });
 
 const about = ref(
-  "Currently building cutting-edge NBA basketball analytics at Cleaning the Glass. Based in Denver, CO."
+  "Currently building cutting-edge NBA Basketball analytics at Cleaning the Glass. Based in Denver, CO."
 );
 
 const skills = ref([
@@ -97,7 +97,7 @@ const experiences = ref([
     endDate: "Present",
     link: "https://benweisel.com",
     description: `I provide consulting services for data engineering, software development, and leadership. 
-      Reach out using the 'Email' link at the top of the page if you'd like to work together!`,
+      Reach out using the links at the top of the page if you'd like to work together!`,
   },
   {
     company: "Uplight",
@@ -115,7 +115,7 @@ const experiences = ref([
     endDate: "Mar. 2020",
     link: "https://www.linkedin.com/company/tendril/",
     description: `I managed two engineering teams: one responsible for Tendril's main data pipelines,
-      and the other a full-stack team responsible for building out Tendril's new customer-facing products.`,
+      and the other a full-stack team focused on building out Tendril's new customer-facing products.`,
   },
   {
     company: "",
