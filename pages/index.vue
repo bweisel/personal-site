@@ -39,6 +39,7 @@
 <script setup>
 const profile = ref({
   name: "Ben Weisel",
+  email: "ben@talltreesoftware.io",
   title: "Software Engineer",
   image: "/headshot.png",
   subLine:
@@ -86,7 +87,7 @@ const experiences = ref([
     startDate: "Apr. 2022",
     endDate: "Present",
     link: "https://www.cleaningtheglass.com",
-    description: `I lead the development of the backend, data pipelines, and infrastructure for Cleaning the Glass's NBA analytics platform. 
+    description: `I lead the development of the backend, data pipelines, and infrastructure for Cleaning the Glass's NBA analytics platform.
       Our software is used daily by NBA teams, media, and fans to better understand the game of basketball.`,
   },
   {
@@ -95,8 +96,8 @@ const experiences = ref([
     startDate: "Apr. 2022",
     endDate: "Present",
     link: "https://benweisel.com",
-    description:
-      "I provide consulting services for data engineering, software development, and leadership.",
+    description: `I provide consulting services for data engineering, software development, and leadership. 
+      Reach out using the 'Email' link at the top of the page if you'd like to work together!`,
   },
   {
     company: "Uplight",
@@ -104,7 +105,7 @@ const experiences = ref([
     startDate: "Mar. 2020",
     endDate: "Apr. 2022",
     link: "https://www.linkedin.com/company/uplightenergy/",
-    description: `I led the engineering deparment for Uplight's Orchestrated Energy (Demand Response) product line. 
+    description: `I led the engineering deparment for Uplight's Orchestrated Energy (Demand Response) product line.
       Achieved 100% YoY revenue growth in 2020 & 2021, and scaled the engineering team to 30+ engineers around the world.`,
   },
   {
@@ -113,7 +114,7 @@ const experiences = ref([
     startDate: "Nov. 2017",
     endDate: "Mar. 2020",
     link: "https://www.linkedin.com/company/tendril/",
-    description: `I managed two engineering teams: one responsible for Tendril's main data pipelines, 
+    description: `I managed two engineering teams: one responsible for Tendril's main data pipelines,
       and the other a full-stack team responsible for building out Tendril's new customer-facing products.`,
   },
   {

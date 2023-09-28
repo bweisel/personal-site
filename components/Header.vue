@@ -22,6 +22,14 @@
         <li class="inline list-none pr-4">
           <NuxtLink
             class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
+            :href="`mailto:${profile.email}`"
+          >
+            Email
+          </NuxtLink>
+        </li>
+        <li class="inline list-none pr-4">
+          <NuxtLink
+            class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
             :to="profile.github"
             target="_blank"
           >
