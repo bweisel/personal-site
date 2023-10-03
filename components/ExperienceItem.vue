@@ -18,10 +18,35 @@
     <p class="text-md text-gray-600">
       {{ experience.description }}
     </p>
+    <transition name="fade">
+      <ul
+        v-show="showBullets"
+        class="list-disc ml-5 mt-2 text-gray-500 text-sm"
+      >
+        <li v-for="(bullet, index) in experience.bullets" :key="index">
+          {{ bullet }}
+        </li>
+      </ul>
+    </transition>
+    <button
+      v-if="experience.bullets && experience.bullets.length"
+      @click="showBullets = !showBullets"
+      class="flex items-center text-sm text-black hover:text-gray-700 transition duration-300 mt-2"
+    >
+      <span v-show="!showBullets">
+        Show Details
+        <ArrowDownIcon class="inline-block h-4 w-4 text-black" />
+      </span>
+      <span v-show="showBullets">
+        Hide Details
+        <ArrowUpIcon class="inline-block h-4 w-4 text-black" />
+      </span>
+    </button>
   </div>
 </template>
 
 <script setup>
+import { ArrowUpIcon, ArrowDownIcon } from "@heroicons/vue/24/solid";
 const props = defineProps({
   experience: {
     type: Object,
@@ -29,4 +54,18 @@ const props = defineProps({
   },
 });
 const { experience } = props;
+const showBullets = ref(false);
 </script>
+
+<style scoped>
+.fade-enter-active {
+  transition: opacity 0.2s ease;
+}
+.fade-leave-active {
+  transition: opacity 0.15s ease-out;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>
