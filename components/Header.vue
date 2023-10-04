@@ -24,7 +24,7 @@
             class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
             :href="`mailto:${profile.email}`"
           >
-            <img src="email_icon.svg" width="35" height="35" alt="Email Me" />
+            <img src="/email_icon.svg" width="35" height="35" alt="Email Me" />
           </NuxtLink>
         </li>
         <li class="inline list-none pr-4">
@@ -33,7 +33,7 @@
             :to="profile.github"
             target="_blank"
           >
-            <img src="github_icon.svg" width="35" height="35" alt="GitHub" />
+            <img src="/github_icon.svg" width="35" height="35" alt="GitHub" />
           </NuxtLink>
         </li>
         <li class="inline list-none pr-4">
@@ -43,7 +43,7 @@
             target="_blank"
           >
             <img
-              src="linkedin_icon.svg"
+              src="/linkedin_icon.svg"
               width="35"
               height="35"
               alt="LinkedIn"
@@ -56,7 +56,7 @@
             :to="profile.twitter"
             target="_blank"
           >
-            <img src="twitter_icon.svg" width="35" height="35" alt="Twitter" />
+            <img src="/twitter_icon.svg" width="35" height="35" alt="Twitter" />
           </NuxtLink>
         </li>
       </ul>
