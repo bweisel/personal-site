@@ -23,7 +23,11 @@
         v-show="showBullets"
         class="list-disc ml-5 mt-2 text-gray-500 text-sm"
       >
-        <li v-for="(bullet, index) in experience.bullets" :key="index">
+        <li
+          v-for="(bullet, index) in experience.bullets"
+          :key="index"
+          class="mb-1"
+        >
           {{ bullet }}
         </li>
       </ul>
@@ -59,7 +63,7 @@ const showBullets = ref(false);
 
 <style scoped>
 .fade-enter-active {
-  transition: opacity 0.2s ease;
+  transition: opacity 0.25s ease;
 }
 .fade-leave-active {
   transition: opacity 0.15s ease-out;

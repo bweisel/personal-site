@@ -60,10 +60,10 @@ const experiences = ref([
     startDate: "Apr. 2022",
     endDate: "Present",
     link: "https://www.cleaningtheglass.com",
-    description: `I work mostly across the backend, data pipelines, and infrastructure for our NBA analytics platform.
+    description: `I work across the backend, data pipelines, and infrastructure for our NBA analytics platform, with a small amount of full-stack work mixed in as well.
       Our software is used daily by NBA teams, media, and fans to better understand the game of basketball.`,
     bullets: [
-      "Architect, build, and operate a Prefect & DBT powered data pipeline to process large-scale NBA tracking data through PostgreSQL and ClickHouse.",
+      "Architect, build, and operate a Prefect & DBT powered data pipeline to process large-scale (100M+ data points per game) NBA tracking data through PostgreSQL and ClickHouse.",
       "Implement advanced analytics models to power Cleaning the Glass's NBA player and team metrics.",
       "Work full stack on Cleaning the Glass's web application, built with Vue.js and Nuxt.js. As well as the backend API",
     ],
