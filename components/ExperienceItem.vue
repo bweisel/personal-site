@@ -9,7 +9,7 @@
         {{ experience.company }}
       </NuxtLink>
     </h3>
-    <p class="text-base/6 text-gray-600 font-bold mb-1">
+    <p class="text-base text-gray-600 font-bold mb-1">
       {{ experience.title }}
       <span class="text-gray-900 font-light">
         ({{ experience.startDate }} - {{ experience.endDate }})
@@ -33,13 +33,13 @@
       @click="showBullets = !showBullets"
       class="flex items-center text-sm text-black hover:text-gray-700 transition duration-300 mt-2"
     >
-      <span v-show="!showBullets">
+      <span v-show="!showBullets" class="font-semibold">
         Show Details
-        <ArrowDownIcon class="inline-block h-4 w-4 text-black" />
+        <ArrowDownIcon class="inline-block h-4 w-4 text-black stroke-black" />
       </span>
-      <span v-show="showBullets">
+      <span v-show="showBullets" class="font-semibold">
         Hide Details
-        <ArrowUpIcon class="inline-block h-4 w-4 text-black" />
+        <ArrowUpIcon class="inline-block h-4 w-4 text-black stroke-black" />
       </span>
     </button>
   </div>
