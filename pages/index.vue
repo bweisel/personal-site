@@ -64,6 +64,7 @@ const experiences = ref([
       Our software is used daily by NBA teams, media, and fans to better understand the game of basketball.`,
     bullets: [
       "Architect, build, and operate a Prefect & DBT powered data pipeline to process large-scale (100M+ data points per game) NBA tracking data through PostgreSQL and ClickHouse.",
+      "Manage all infrastructure for the company, and maintain our cloud budget to ensure we're operating as efficiently as possible.",
       "Implement advanced analytics models to power Cleaning the Glass's NBA player and team metrics.",
       "Work full stack on Cleaning the Glass's web application, built with Vue.js and Nuxt.js. As well as the backend API",
     ],
