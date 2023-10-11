@@ -63,10 +63,11 @@ const experiences = ref([
     description: `I work across the backend, data pipelines, and infrastructure for our NBA analytics platform, with a small amount of full-stack work mixed in as well.
       Our software is used daily by NBA teams, media, and fans to better understand the game of basketball.`,
     bullets: [
-      "Architect, build, and operate a Prefect & DBT powered data pipeline to process large-scale (100M+ data points per game) NBA tracking data through PostgreSQL and ClickHouse.",
-      "Manage all infrastructure for the company, and maintain our cloud budget to ensure we're operating as efficiently as possible.",
-      "Implement advanced analytics models to power Cleaning the Glass's NBA player and team metrics.",
-      "Work full stack on Cleaning the Glass's web application, built with Vue.js and Nuxt.js. As well as the backend API",
+      "I lead the development and operations of our data pipelines that process large-scale (100M+ data points per game) NBA player tracking data through PostgreSQL and ClickHouse.",
+      "This pipeline powers Cleaning the Glass's NBA player tracking web application, used by NBA teams to analyze their own players and opponents.",
+      "Implement advanced analytics models to derive new and proprietary metrics only available on Cleaning the Glass.",
+      "Manage cloud infrastructure for the company, and have accountability for our cloud budget to ensure we're operating as efficiently as possible.",
+      "Work full stack on Cleaning the Glass's web application, built with Vue.js and Nuxt.js. As well as the backend Flask API.",
     ],
   },
   {
@@ -176,7 +177,7 @@ const skills = ref([
   {
     name: "Frameworks & Libraries",
     description:
-      "Flask, FastAPI, SQLAlchemy, Prefect, DBT, Airflow, TailwindCSS, Vue.js, Nuxt.js",
+      "Flask, FastAPI, SQLAlchemy, Prefect, DBT, Spark, Airflow, TailwindCSS, Vue.js, Nuxt.js",
   },
   {
     name: "Databases & Storage",
