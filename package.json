@@ -18,6 +18,5 @@
   },
   "dependencies": {
     "@heroicons/vue": "^2.0.18",
-    "node-fetch": "2.6.1"
   }
 }
