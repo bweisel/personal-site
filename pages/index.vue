@@ -164,7 +164,8 @@ const experiences = ref([
 const projects = ref([
   {
     name: "NFL Margins",
-    description: "Host free NFL Margin pools with your friends.",
+    description: `This is a small web app I built that hosts NFL Margin Pools. The game is similar to a survivor pool, 
+      but each week you gain or lose points based on the margin of victory of the team you pick. Built using Flask, Postgres, Bootstrap, and deployed on Heroku.`,
     link: "https://www.nflmargins.com",
   },
 ]);
