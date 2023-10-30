@@ -41,7 +41,7 @@ const profile = ref({
   name: "Ben Weisel",
   email: "ben@talltreesoftware.io",
   title: "Software Engineer",
-  image: "headshot.png",
+  image: "headshot.png", // Put any image in the public dir to reference here
   subLine:
     "Software engineer and leader with an expertise in developing advanced data-driven applications of all shapes and sizes.",
   twitter: "https://twitter.com/bweisel",
