@@ -193,7 +193,7 @@ const skills = ref([
   {
     name: "Other",
     description:
-      "Product Development, System Design, Data Modeling, Data Pipeline Architecture, Data Warehousing, Data Science & Analytics, OAuth",
+      "Product Development, System Design, Data Modeling, Data Pipeline Architecture, Data Warehousing, Data Science & Analytics, SSO, OAuth",
   },
 ]);
 
