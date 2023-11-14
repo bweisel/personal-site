@@ -60,10 +60,10 @@ const experiences = ref([
     startDate: "Apr. 2022",
     endDate: "Present",
     link: "https://www.cleaningtheglass.com",
-    description: `At Cleaning the Glass, I develop significant components of our NBA analytics platform, shaping team strategies and performance with expertise in backend engineering, data pipelines, and cloud infrastructure management.`,
+    description: `At Cleaning the Glass, I develop significant components of our NBA analytics platform, leveraging my expertise in backend engineering, data pipelines, and cloud infrastructure management.`,
     bullets: [
       "Lead the development and maintenance of data pipelines, processing over 100 million data points per game, and transforming raw data into actionable insights for team strategy and performance analysis.",
-      "Played a critical role in designing and launching an advanced NBA player tracking web application, now a key tool for several NBA teams in scouting and game analysis, significantly contributing to their competitive edge.",
+      "Played a critical role in designing and launching an advanced NBA player tracking web application, now a key tool for several NBA teams in scouting and game analysis.",
       "Develop innovative NBA analytics models, creating proprietary metrics that distinguish Cleaning the Glass in the industry.",
       "Responsible for the company's cloud infrastructure, optimizing for cost-efficiency and performance, and ensuring high availability and scalability during peak demand periods.",
       "Contribute to full-stack development using Vue.js, Nuxt.js, and a Flask-based API, enhancing user experience and functionality for a diverse client base, including NBA teams, media, and enthusiasts.",
