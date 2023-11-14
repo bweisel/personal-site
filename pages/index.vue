@@ -60,14 +60,13 @@ const experiences = ref([
     startDate: "Apr. 2022",
     endDate: "Present",
     link: "https://www.cleaningtheglass.com",
-    description: `I work across the backend, data pipelines, and infrastructure for our NBA analytics platform, with a small amount of full-stack work mixed in as well.
-      Our software is used daily by NBA teams, media, and fans to better understand the game of basketball.`,
+    description: `At Cleaning the Glass, I develop significant components of our NBA analytics platform, shaping team strategies and performance with expertise in backend engineering, data pipelines, and cloud infrastructure management.`,
     bullets: [
-      "I lead the development and operations of our data pipelines that process large-scale (100M+ data points per game) NBA player tracking data through PostgreSQL and ClickHouse.",
-      "This pipeline powers Cleaning the Glass's NBA player tracking web application, used by NBA teams to analyze their own players and opponents.",
-      "Implement advanced analytics models to derive new and proprietary metrics only available on Cleaning the Glass.",
-      "Manage cloud infrastructure for the company, and have accountability for our cloud budget to ensure we're operating as efficiently as possible.",
-      "Work full stack on Cleaning the Glass's web application, built with Vue.js and Nuxt.js. As well as the backend Flask API.",
+      "Lead the development and maintenance of data pipelines, processing over 100 million data points per game, and transforming raw data into actionable insights for team strategy and performance analysis.",
+      "Played a critical role in designing and launching an advanced NBA player tracking web application, now a key tool for several NBA teams in scouting and game analysis, significantly contributing to their competitive edge.",
+      "Develop innovative NBA analytics models, creating proprietary metrics that distinguish Cleaning the Glass in the industry.",
+      "Responsible for the company's cloud infrastructure, optimizing for cost-efficiency and performance, and ensuring high availability and scalability during peak demand periods.",
+      "Contribute to full-stack development using Vue.js, Nuxt.js, and a Flask-based API, enhancing user experience and functionality for a diverse client base, including NBA teams, media, and enthusiasts.",
     ],
   },
   {
@@ -86,14 +85,14 @@ const experiences = ref([
     endDate: "Apr. 2022",
     link: "https://www.linkedin.com/company/uplightenergy/",
     description:
-      "I led the engineering deparment for Uplight's Orchestrated Energy (Demand Response) product line. In July of 2019, Tendril and Simple Energy merged to form Uplight.",
+      "As Director of Engineering, I steered Uplight's Orchestrated Energy product line through a transformative period, scaling the engineering team globally and driving significant revenue growth amidst the formation of Uplight through mergers.",
     bullets: [
-      "Scaled the engineering staff to 30+ engineers and 5 teams located around the world.",
-      "Achieved 100% YoY revenue growth in 2020 & 2021.",
-      "Guided the release of new major product features, including deploying new machine learning models, overhauling data pipelines, and launching new customer-facing applications.",
-      "Led the purchase and adoption of Databricks into Uplight's data platform, enabling greater developer and data science productivity, in addition to considerable cost savings.",
-      "Worked closely with external vendors such as Google Nest, ecobee, and Emerson to integrate their smart thermostats into Uplight's platform.",
-      "Led the efforts to integrate the engineering group from a recent acquisition into Uplight's engineering organization, and traveled weekly for months to be on-site with the new team.",
+      "Scaled the engineering division to over 30 engineers across 5 international teams, fostering a high-performing global unit.",
+      "Drove 100% year-over-year revenue growth in 2020 & 2021, aligning product development with strategic business objectives.",
+      "Orchestrated the release of major product features, including deploying new machine learning models, revamping data pipelines, and launching customer-centric applications.",
+      "Pioneered the integration of Databricks into Uplight's data platform, enhancing developer and data science productivity while achieving significant cost savings.",
+      "Collaborated with key external vendors like Google Nest, ecobee, and Emerson for smart thermostat integrations, expanding Uplight's ecosystem.",
+      "Led integration efforts for engineering teams from newly acquired companies, involving extensive travel and hands-on leadership to ensure seamless transitions.",
     ],
   },
   {
@@ -102,10 +101,11 @@ const experiences = ref([
     startDate: "Nov. 2017",
     endDate: "Mar. 2020",
     link: "https://www.linkedin.com/company/tendril/",
-    description: `I managed two engineering teams and a total of 12 engineers, working on a variety of products at Tendril.`,
+    description:
+      "Managed two engineering teams at Tendril, focusing on product development and data engineering, which helped lay the groundwork for Tendril's evolution into Uplight.",
     bullets: [
-      "Led an effort to dramatically improve how customers were onboarded to Tendril's software platform, saving the company over $500k annually.",
-      "Managed the launch of a new product used by utility company personnel to manage their energy efficiency programs.",
+      "Championed a significant improvement in customer onboarding processes, saving the company over $500k USD annually and enhancing client satisfaction.",
+      "Oversaw the launch of a utility program management product, streamlining energy efficiency programs and bolstering client engagement.",
     ],
   },
   {
@@ -115,10 +115,10 @@ const experiences = ref([
     endDate: "Nov. 2017",
     link: "https://www.linkedin.com/company/tendril/",
     description:
-      "I was the lead developer on a team of 5 engineers where we launched two new products for Tendril.",
+      "Led a team of 5 engineers in the development and launch of innovative energy-related products, contributing significantly to Tendril's market expansion.",
     bullets: [
-      "Launched an energy real-estate API that allowed customers to get energy scores for any address in the United States and Australia.",
-      "Built a new home energy audit web application that leveraged Tendril's propriety energy simulation models to generate a custom energy report for each user.",
+      "Developed an energy real-estate API, providing comprehensive energy scores across the United States and Australia.",
+      "Created a home energy audit web application, utilizing Tendril's unique energy simulation models to deliver personalized energy reports.",
     ],
   },
   {
@@ -128,23 +128,23 @@ const experiences = ref([
     endDate: "Jan. 2016",
     link: "https://www.linkedin.com/company/publicissapient/",
     description:
-      "Led a team of 5 engineers to relaunch Samsung.com on a new CMS platform.",
+      "Led a team of 5 engineers in the strategic relaunch of Samsung.com on a new CMS platform, laying the groundwork for Samsung's global digital infrastructure.",
     bullets: [
-      "Worked extensively with Samsung's internal development team and regularly traveled to their offices to ensure a smooth project and transition.",
-      "This architecture was later used as the basis for Samsung's new global CMS platform.",
+      "Collaborated closely with Samsung's internal development team, involving regular travel for seamless project coordination and transition.",
+      "The architecture developed became the foundation for Samsung's new global CMS platform, influencing the company's digital presence worldwide.",
     ],
   },
   {
-    company: "",
+    company: "Rosetta",
     title: "Senior Software Engineer",
     startDate: "Oct. 2012",
     endDate: "Nov. 2014",
-    link: "",
+    link: "https://www.linkedin.com/company/rosetta/",
     description:
-      "I was a senior backend developer focused on building a variety of projects for Samsung, notably the Samsung+ app.",
+      "As a senior backend developer at Rosetta, I focused on innovating digital solutions for Samsung, including the pivotal Samsung+ app.",
     bullets: [
-      "Helped develop a custom content personalization engine that drove a majority of the content displayed in the Samsung+ app.",
-      "Built out a location-based rewards platform using iBeacons and geofencing to drive in-event engagement for Samsung at all AEG sports and concert venues in the US.",
+      "Developed a bespoke content personalization engine that powered the majority of Samsung+ app content, enhancing user experience and engagement.",
+      "Engineered a location-based rewards platform using iBeacons and geofencing, driving in-event engagement for Samsung at AEG sports and concert venues nationwide.",
     ],
   },
   {
@@ -152,11 +152,11 @@ const experiences = ref([
     title: "Software Engineer",
     startDate: "Jun. 2010",
     endDate: "Oct. 2012",
-    link: "",
+    link: "https://www.linkedin.com/company/rosetta/",
     description:
-      "Worked as a full-stack Java developer on large-scale eCommerce projects for a variety of clients, most notably Scholastic Books.",
+      "Full-stack Java developer at Rosetta, focused on large-scale eCommerce projects, notably for Scholastic Books, enhancing online retail experiences.",
     bullets: [
-      "Developed major site features, including product search, the coupon engine, and the checkout flow.",
+      "Developed key site features for Scholastic's eCommerce platform, including product search, the coupon engine, and the checkout flow.",
     ],
   },
 ]);
@@ -164,8 +164,8 @@ const experiences = ref([
 const projects = ref([
   {
     name: "NFL Margins",
-    description: `This is a small web app I built that hosts NFL Margin Pools. The game is similar to a survivor pool, 
-      but each week you gain or lose points based on the margin of victory of the team you pick. Built using Flask, Postgres, Bootstrap, and deployed on Heroku.`,
+    description: `A web application for hosting NFL Margin Pools, similar to survivor pools. Players gain or lose points based on the margin of victory of the team they pick each week. 
+    Built with Flask, Postgres, Bootstrap, and deployed on Heroku.`,
     link: "https://www.nflmargins.com",
   },
 ]);
@@ -188,7 +188,7 @@ const skills = ref([
   {
     name: "Cloud & DevOps",
     description:
-      "Amazon Web Services (AWS), Google Cloud Platform (GCP), Docker, CloudFormation, GitHub Actions, Serverless Architectures",
+      "AWS, GCP, Docker, CloudFormation, GitHub Actions, Serverless Architectures",
   },
   {
     name: "Other",
