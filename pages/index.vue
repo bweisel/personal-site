@@ -61,10 +61,11 @@ const experiences = ref([
     endDate: "Present",
     link: "https://www.cleaningtheglass.com",
     companyLogo: "/company_logos/ctg.png",
-    description: `At Cleaning the Glass, I develop significant components of our NBA analytics platform, leveraging my expertise in backend engineering, data pipelines, and cloud infrastructure management.`,
+    description: `Our NBA analytics platform is used by NBA teams, media, and enthusiasts to gain a deeper understanding of the game of basketball. 
+      We are a lean, bootstrapped team where I handle the development of our data pipelines, backend development, and cloud infrastructure.`,
     bullets: [
-      "Lead the development and maintenance of data pipelines, processing over 100 million data points per game, and transforming raw data into actionable insights for team strategy and performance analysis.",
-      "Played a critical role in designing and launching an advanced NBA player tracking web application, now a key tool for several NBA teams in scouting and game analysis.",
+      "Lead the development and operations of data pipelines, processing over 100 million data points per game, and transforming raw data into actionable insights for team strategy and performance analysis.",
+      "Played a critical role in architecting and launching an advanced NBA player tracking web application, now a key tool for several NBA teams in scouting and game analysis.",
       "Develop innovative NBA analytics models, creating proprietary metrics that distinguish Cleaning the Glass in the industry.",
       "Responsible for the company's cloud infrastructure, optimizing for cost-efficiency and performance, and ensuring high availability and scalability during peak demand periods.",
       "Contribute to full-stack development using Vue.js, Nuxt.js, and a Flask-based API, enhancing user experience and functionality for a diverse client base, including NBA teams, media, and enthusiasts.",
@@ -90,7 +91,7 @@ const experiences = ref([
     description:
       "I steered Uplight's Orchestrated Energy product line through a transformative period, scaling the engineering team globally and driving significant revenue growth amidst the formation of Uplight through mergers.",
     bullets: [
-      "Scaled the engineering division to over 30 engineers across 5 international teams, fostering a high-performing global unit.",
+      "Scaled the engineering division to over 30 engineers across 5 teams, successfully building a high-performing group working around the world.",
       "Drove 100% year-over-year revenue growth in 2020 & 2021, aligning product development with strategic business objectives.",
       "Orchestrated the release of major product features, including deploying new machine learning models, revamping data pipelines, and launching customer-centric applications.",
       "Pioneered the integration of Databricks into Uplight's data platform, enhancing developer and data science productivity while achieving significant cost savings.",
