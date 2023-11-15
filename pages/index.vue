@@ -84,8 +84,9 @@ const experiences = ref([
     startDate: "Mar. 2020",
     endDate: "Apr. 2022",
     link: "https://www.linkedin.com/company/uplightenergy/",
+    companyLogo: "/company_logos/uplight.png",
     description:
-      "As Director of Engineering, I steered Uplight's Orchestrated Energy product line through a transformative period, scaling the engineering team globally and driving significant revenue growth amidst the formation of Uplight through mergers.",
+      "I steered Uplight's Orchestrated Energy product line through a transformative period, scaling the engineering team globally and driving significant revenue growth amidst the formation of Uplight through mergers.",
     bullets: [
       "Scaled the engineering division to over 30 engineers across 5 international teams, fostering a high-performing global unit.",
       "Drove 100% year-over-year revenue growth in 2020 & 2021, aligning product development with strategic business objectives.",
