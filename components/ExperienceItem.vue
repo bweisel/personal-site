@@ -1,13 +1,21 @@
 <template>
   <div class="mb-6">
     <h3 class="font-semibold text-gray-900 mb-2">
-      <NuxtLink
-        :to="experience.link"
-        class="hover:underline hover:text-black"
-        target="_blank"
-      >
-        {{ experience.company }}
-      </NuxtLink>
+      <div class="flex items-center">
+        <img
+          v-if="experience.companyLogo"
+          :src="experience.companyLogo"
+          class="w-7 h-7 mr-2"
+          :alt="experience.company"
+        />
+        <NuxtLink
+          :to="experience.link"
+          class="hover:underline hover:text-black"
+          target="_blank"
+        >
+          {{ experience.company }}
+        </NuxtLink>
+      </div>
     </h3>
     <p class="text-base text-gray-600 font-bold mb-1">
       {{ experience.title }}

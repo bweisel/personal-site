@@ -1,13 +1,21 @@
 <template>
   <div class="mb-6">
     <h3 class="font-semibold text-gray-900 pb-1">
-      <NuxtLink
-        :to="project.link"
-        class="hover:underline hover:text-black"
-        target="_blank"
-      >
-        {{ project.name }}
-      </NuxtLink>
+      <div class="flex items-center">
+        <img
+          v-if="project.logo"
+          :src="project.logo"
+          class="w-7 h-7 mr-2"
+          :alt="project.name"
+        />
+        <NuxtLink
+          :to="project.link"
+          class="hover:underline hover:text-black"
+          target="_blank"
+        >
+          {{ project.name }}
+        </NuxtLink>
+      </div>
     </h3>
     <p class="text-md text-gray-600 font-light">{{ project.description }}</p>
   </div>

@@ -60,6 +60,7 @@ const experiences = ref([
     startDate: "Apr. 2022",
     endDate: "Present",
     link: "https://www.cleaningtheglass.com",
+    companyLogo: "/company_logos/ctg.png",
     description: `At Cleaning the Glass, I develop significant components of our NBA analytics platform, leveraging my expertise in backend engineering, data pipelines, and cloud infrastructure management.`,
     bullets: [
       "Lead the development and maintenance of data pipelines, processing over 100 million data points per game, and transforming raw data into actionable insights for team strategy and performance analysis.",
@@ -75,6 +76,7 @@ const experiences = ref([
     startDate: "Apr. 2022",
     endDate: "Present",
     link: "https://benweisel.com",
+    companyLogo: "/company_logos/tall_tree.png",
     description: `I provide consulting services for data engineering, software development, and leadership.
       Reach out using the links at the top of the page if you'd like to work together!`,
   },
@@ -102,6 +104,7 @@ const experiences = ref([
     startDate: "Nov. 2017",
     endDate: "Mar. 2020",
     link: "https://www.linkedin.com/company/tendril/",
+    companyLogo: "/company_logos/tendril.png",
     description:
       "Managed two engineering teams at Tendril, focusing on product development and data engineering, which helped lay the groundwork for Tendril's evolution into Uplight.",
     bullets: [
@@ -128,6 +131,7 @@ const experiences = ref([
     startDate: "Nov. 2014",
     endDate: "Jan. 2016",
     link: "https://www.linkedin.com/company/publicissapient/",
+    companyLogo: "/company_logos/publicis.png",
     description:
       "Led a team of 5 engineers in the strategic relaunch of Samsung.com on a new CMS platform, laying the groundwork for Samsung's global digital infrastructure.",
     bullets: [
@@ -141,6 +145,7 @@ const experiences = ref([
     startDate: "Oct. 2012",
     endDate: "Nov. 2014",
     link: "https://www.linkedin.com/company/rosetta/",
+    companyLogo: "/company_logos/rosetta.png",
     description:
       "As a senior backend developer at Rosetta, I focused on innovating digital solutions for Samsung, including the pivotal Samsung+ app.",
     bullets: [
@@ -165,6 +170,7 @@ const experiences = ref([
 const projects = ref([
   {
     name: "NFL Margins",
+    logo: "/company_logos/nflmargins.png",
     description: `A web application for hosting NFL Margin Pools, similar to survivor pools. Players gain or lose points based on the margin of victory of the team they pick each week. 
     Built with Flask, Postgres, Bootstrap, and deployed on Heroku.`,
     link: "https://www.nflmargins.com",
