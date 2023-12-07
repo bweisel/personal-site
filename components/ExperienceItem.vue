@@ -7,11 +7,13 @@
           :src="experience.companyLogo"
           class="w-7 h-7 mr-2"
           :alt="experience.company"
+          loading="lazy"
         />
         <NuxtLink
           :to="experience.link"
           class="hover:underline hover:text-black"
           target="_blank"
+          :title="experience.company"
         >
           {{ experience.company }}
         </NuxtLink>

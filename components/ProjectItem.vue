@@ -7,11 +7,13 @@
           :src="project.logo"
           class="w-7 h-7 mr-2"
           :alt="project.name"
+          loading="lazy"
         />
         <NuxtLink
           :to="project.link"
           class="hover:underline hover:text-black"
           target="_blank"
+          :title="project.name"
         >
           {{ project.name }}
         </NuxtLink>
