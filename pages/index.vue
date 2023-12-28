@@ -68,7 +68,7 @@ const experiences = ref([
       "Played a critical role in architecting and launching an advanced NBA player tracking web application, now a key tool for several NBA teams in scouting and game analysis.",
       "Develop innovative NBA analytics models, creating proprietary metrics that distinguish Cleaning the Glass in the industry.",
       "Responsible for the company's cloud infrastructure, optimizing for cost-efficiency and performance, and ensuring high availability and scalability during peak demand periods.",
-      "Contribute to full-stack development using Vue.js, Nuxt.js, and a Flask-based API, enhancing user experience and functionality for a diverse client base, including NBA teams, media, and enthusiasts.",
+      "Contribute to full-stack development using Vue.js, Nuxt.js, and a Flask-based API.",
     ],
   },
   {
