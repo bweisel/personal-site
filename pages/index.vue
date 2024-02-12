@@ -72,16 +72,6 @@ const experiences = ref([
     ],
   },
   {
-    company: "Tall Tree Software",
-    title: "Founder",
-    startDate: "Apr. 2022",
-    endDate: "Present",
-    link: "https://benweisel.com",
-    companyLogo: "/company_logos/tall_tree.png",
-    description: `I provide consulting services for data engineering, software development, and leadership.
-      Reach out using the links at the top of the page if you'd like to work together!`,
-  },
-  {
     company: "Uplight",
     title: "Director of Engineering",
     startDate: "Mar. 2020",
@@ -172,7 +162,7 @@ const projects = ref([
   {
     name: "NFL Margins",
     logo: "/company_logos/nflmargins.png",
-    description: `A web application for hosting NFL Margin Pools, similar to survivor pools. Players gain or lose points based on the margin of victory of the team they pick each week. 
+    description: `This is a web app I built for hosting NFL Margin Pools, similar to survivor pools. Players gain or lose points based on the margin of victory of the team they pick each week. 
     Built with Flask, Postgres, Bootstrap, and deployed on Heroku.`,
     link: "https://www.nflmargins.com",
   },
