@@ -39,7 +39,7 @@
 <script setup>
 const profile = ref({
   name: "Ben Weisel",
-  email: "ben@talltreesoftware.io",
+  email: "bweisel@gmail.com",
   title: "Software Engineer",
   image: "headshot.png", // Put any image in the public dir to reference here
   subLine:
