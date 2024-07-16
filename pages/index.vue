@@ -62,9 +62,9 @@ const experiences = ref([
     link: "https://www.cleaningtheglass.com",
     companyLogo: "/company_logos/ctg.png",
     description: 
-      "Our NBA analytics platform helps teams, media, and fans better understand basketball. As the second full-time hire, I do a bit of everything, but am mostly responsible for data pipelines, backend development, and cloud infrastructure.",
+      "Our NBA analytics platform helps teams, media, and fans better understand basketball. As the second full-time hire, I do a bit of everything, but mostly handle data pipelines, backend development, and cloud infrastructure.",
     bullets: [
-      "Develop data pipelines that process high-resolution NBA player tracking data, turning raw data into advanced analytics for team strategy.",
+      "Develop data pipelines that process high-resolution NBA player tracking data, turning raw data into advanced analytics used for team strategy.",
       "Create innovative analytics models and metrics that set our company apart in the industry.",
       "Manage DevOps and cloud infrastructure for the company, balancing cost, performance, and reliability.",
       "Work across the stack using Vue.js, Nuxt.js, and Flask, among other tools.",
@@ -78,14 +78,14 @@ const experiences = ref([
     link: "https://www.linkedin.com/company/uplightenergy/",
     companyLogo: "/company_logos/uplight.png",
     description:
-      "I steered Uplight's Orchestrated Energy product line through a transformative period, scaling the engineering team globally and driving significant revenue growth amidst the formation of Uplight through mergers.",
+      "Led Uplight's Orchestrated Energy product through a period of rapid growth, expanding our team globally and boosting revenue as the company formed through mergers.",
     bullets: [
-      "Scaled the engineering division to over 30 engineers across 5 teams, successfully building a high-performing group working around the world.",
-      "Drove 100% year-over-year revenue growth in 2020 & 2021, aligning product development with strategic business objectives.",
-      "Orchestrated the release of major product features, including deploying new machine learning models, revamping data pipelines, and launching customer-centric applications.",
-      "Pioneered the integration of Databricks into Uplight's data platform, enhancing developer and data science productivity while achieving significant cost savings.",
-      "Collaborated with key external vendors like Google Nest, ecobee, and Emerson for smart thermostat integrations, expanding Uplight's ecosystem.",
-      "Led integration efforts for engineering teams from newly acquired companies, involving extensive travel and hands-on leadership to ensure seamless transitions.",
+      "Grew engineering team from 5 to 30+ members across 5 global teams, fostering a high-performance culture.",
+      "Achieved 100% year-over-year revenue growth in both 2020 and 2021 by aligning product development with key business goals.",
+      "Launched major features including new AI models, revamped data systems, and user-friendly apps to meet customer needs.",
+      "Introduced Databricks to our data stack, boosting productivity and cutting costs.",
+      "Partnered with smart home leaders like Google Nest and ecobee to expand our product ecosystem.",
+      "Smoothly integrated engineering teams from acquired companies, involving extensive travel and hands-on leadership.",
     ],
   },
   {
@@ -96,10 +96,10 @@ const experiences = ref([
     link: "https://www.linkedin.com/company/tendril/",
     companyLogo: "/company_logos/tendril.png",
     description:
-      "Managed two engineering teams at Tendril, focusing on product development and data engineering, which helped lay the groundwork for Tendril's evolution into Uplight.",
+      "Managed product development and data engineering teams, setting the stage for Tendril's evolution into Uplight.",
     bullets: [
-      "Championed a significant improvement in customer onboarding processes, saving the company over $500k USD annually and enhancing client satisfaction.",
-      "Oversaw the launch of a utility program management product, streamlining energy efficiency programs and bolstering client engagement.",
+      "Streamlined customer onboarding, saving over $500k annually and boosting client satisfaction.",
+      "Launched a utility program management tool that simplified energy efficiency initiatives and increased client engagement.",
     ],
   },
   {
@@ -109,10 +109,10 @@ const experiences = ref([
     endDate: "Nov. 2017",
     link: "https://www.linkedin.com/company/tendril/",
     description:
-      "Led a team of 5 engineers in the development and launch of innovative energy-related products, contributing significantly to Tendril's market expansion.",
+      "Led a 5-person engineering team in creating innovative energy products, helping Tendril expand its market reach.",
     bullets: [
-      "Developed an energy real-estate API, providing comprehensive energy scores across the United States and Australia.",
-      "Created a home energy audit web application, utilizing Tendril's unique energy simulation models to deliver personalized energy reports.",
+      "Developed an API providing energy scores for properties across the US and Australia, used by real estate companies.",
+      "Built a web app for home energy audits, using our unique energy models to give homeowners personalized reports.",
     ],
   },
   {
@@ -123,10 +123,10 @@ const experiences = ref([
     link: "https://www.linkedin.com/company/publicissapient/",
     companyLogo: "/company_logos/publicis.png",
     description:
-      "Led a team of 5 engineers in the strategic relaunch of Samsung.com on a new CMS platform, laying the groundwork for Samsung's global digital infrastructure.",
+      "Spearheaded the relaunch of Samsung.com on a new content management system, setting up Samsung's global digital infrastructure.",
     bullets: [
-      "Collaborated closely with Samsung's internal development team, involving regular travel for seamless project coordination and transition.",
-      "The architecture developed became the foundation for Samsung's new global CMS platform, influencing the company's digital presence worldwide.",
+      "Worked closely with Samsung's in-house team, often traveling to ensure smooth project coordination and handover.",
+      "The architecture we developed became the foundation for Samsung's new global CMS, shaping their worldwide digital presence.",
     ],
   },
   {
@@ -137,10 +137,10 @@ const experiences = ref([
     link: "https://www.linkedin.com/company/rosetta/",
     companyLogo: "/company_logos/rosetta.png",
     description:
-      "As a senior backend developer at Rosetta, I focused on innovating digital solutions for Samsung, including the pivotal Samsung+ app.",
+      "Focused on creating cutting-edge digital solutions for Samsung, including the key Samsung+ app.",
     bullets: [
-      "Developed a bespoke content personalization engine that powered the majority of Samsung+ app content, enhancing user experience and engagement.",
-      "Engineered a location-based rewards platform using iBeacons and geofencing, driving in-event engagement for Samsung at AEG sports and concert venues nationwide.",
+      "Created a custom content personalization system powering most of the Samsung+ app's content, enhancing user engagement.",
+      "Built a location-based rewards platform using iBeacons and geofencing, boosting Samsung's presence at AEG sports and concert venues across the US.",
     ],
   },
   {
@@ -150,9 +150,9 @@ const experiences = ref([
     endDate: "Oct. 2012",
     link: "https://www.linkedin.com/company/rosetta/",
     description:
-      "Full-stack Java developer at Rosetta, focused on large-scale eCommerce projects, notably for Scholastic Books, enhancing online retail experiences.",
+      "Worked as a full-stack Java developer on major e-commerce projects, notably for Scholastic Books.",
     bullets: [
-      "Developed key site features for Scholastic's eCommerce platform, including product search, the coupon engine, and the checkout flow.",
+      "Developed core features for Scholastic's online store, including product search, coupon system, and checkout process, improving the overall shopping experience.",
     ],
   },
 ]);
