@@ -161,9 +161,11 @@ const projects = ref([
   {
     name: "NFL Margins",
     logo: "/company_logos/nflmargins.png",
-    description: `This is a web app I built for hosting NFL Margin Pools, similar to survivor pools. Players gain or lose points based on the margin of victory of the team they pick each week. 
-    Built with Flask, Postgres, Bootstrap, and deployed on Heroku.`,
+    description: `This was a web app I built for hosting NFL Margin Pools, similar to survivor pools. Players gain or lose points based on the margin of victory of the team they pick each week. 
+    Built with Flask, Postgres, Bootstrap, and deployed on Heroku. Shut down in after the 2023-24 season.`,
     link: "https://www.nflmargins.com",
+    startDate: "2016",
+    endDate: "2024",
   },
 ]);
 
