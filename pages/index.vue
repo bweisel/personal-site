@@ -61,7 +61,7 @@ const experiences = ref([
     endDate: "Present",
     link: "https://www.cleaningtheglass.com",
     companyLogo: "/company_logos/ctg.png",
-    description: 
+    description:
       "Our NBA analytics platform helps teams, media, and fans better understand basketball. As the second full-time hire, I do a bit of everything, but mostly handle data pipelines, backend development, and cloud infrastructure.",
     bullets: [
       "Develop data pipelines that process high-resolution NBA player tracking data, turning raw data into advanced analytics used for team strategy.",
@@ -158,6 +158,13 @@ const experiences = ref([
 ]);
 
 const projects = ref([
+  {
+    name: "Data Toolkit",
+    logo: "/company_logos/datatoolkit.png",
+    description: `This is a simple set of tools I made for data engineers to help with mundane tasks like data cleaning, list manipulation, etc. 
+    Built with Vue/Nuxt and deployed on Netlify.`,
+    link: "https://www.datatoolkit.io",
+  },
   {
     name: "NFL Margins",
     logo: "/company_logos/nflmargins.png",
