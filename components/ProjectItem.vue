@@ -17,6 +17,9 @@
         >
           {{ project.name }}
         </NuxtLink>
+        <span class="pl-1 text-base text-gray-900 font-light">
+          ({{ project.startDate }} - {{ project.endDate }})
+        </span>
       </div>
     </h3>
     <p class="text-md text-gray-600 font-light">{{ project.description }}</p>
