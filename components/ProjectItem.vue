@@ -17,7 +17,10 @@
         >
           {{ project.name }}
         </NuxtLink>
-        <span class="pl-1 text-base text-gray-900 font-light">
+        <span
+          v-if="project.startDate && project.endDate"
+          class="pl-1 text-base text-gray-900 font-light"
+        >
           ({{ project.startDate }} - {{ project.endDate }})
         </span>
       </div>
