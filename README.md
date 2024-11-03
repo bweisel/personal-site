@@ -1,5 +1,7 @@
 # Overview
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f48f4c30-09db-4c03-bcda-8ee7045f5ccf/deploy-status)](https://app.netlify.com/sites/superb-gelato-12ee1c/deploys)
+
 This is the source code for [my personal website](https://benweisel.com).
 
 It is built with [Nuxt.js](https://nuxt.com/docs/getting-started/introduction) and [Tailwind CSS](https://tailwindcss.com/docs/installation). It is hosted on [Netlify](https://netlify.com).
