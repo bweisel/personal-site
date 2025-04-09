@@ -64,7 +64,7 @@ const experiences = ref([
     description:
       "Our NBA analytics platform helps teams, media, and fans better understand basketball. As the second full-time hire, I do a bit of everything, but mostly handle data pipelines, backend development, and cloud infrastructure.",
     bullets: [
-      "Develop data pipelines that process high-resolution NBA player tracking data, turning raw data into advanced analytics used for team strategy.",
+      "Architect, develop, and operate all data pipelines for the company; processing high-resolution NBA player tracking data and turning raw data into advanced analytics for team strategy",
       "Create innovative analytics models and metrics that set our company apart in the industry.",
       "Manage DevOps and cloud infrastructure for the company, balancing cost, performance, and reliability.",
       "Work across the stack using Vue.js, Nuxt.js, and Flask, among other tools.",
