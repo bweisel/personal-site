@@ -43,14 +43,14 @@ const profile = ref({
   title: "Software Engineer",
   image: "headshot.png", // Put any image in the public dir to reference here
   subLine:
-    "Software engineer and leader with an expertise in developing advanced data-driven applications of all shapes and sizes.",
+    "Software engineer and leader focused on doing interesting things with data.",
   twitter: "https://twitter.com/bweisel",
   github: "https://github.com/bweisel",
   linkedin: "https://www.linkedin.com/in/benweisel/",
 });
 
 const about = ref(
-  "Currently building cutting-edge NBA Basketball analytics at Cleaning the Glass. Based in Denver, CO."
+  "Building NBA Basketball analytics at Cleaning the Glass."
 );
 
 const experiences = ref([
