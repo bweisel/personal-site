@@ -62,12 +62,12 @@ const experiences = ref([
     link: "https://www.cleaningtheglass.com",
     companyLogo: "/company_logos/ctg.png",
     description:
-      "Our NBA analytics platform helps teams, media, and fans better understand basketball. As the second full-time hire, I do a bit of everything, but mostly handle data pipelines, backend development, and cloud infrastructure.",
+      "We build NBA analytics products. As the second full-time hire, I do a bit of everything, with a focus on data pipelines, backend systems, and cloud infrastructure.",
     bullets: [
-      "Architect, develop, and operate all data pipelines for the company",
-      "Create innovative analytics models and metrics using player tracking data",
-      "Manage DevOps and cloud infrastructure for the company",
-      "Work across the stack using Vue.js, Nuxt.js, and Flask, among other tools",
+      "Architect, develop, and operate all company data pipelines",
+      "Build analytics models and metrics using high-volume player-tracking data",
+      "Own DevOps and cloud infrastructure, including cost management",
+      "Work across the stack with Vue.js, Nuxt.js, Flask, and related tools",
     ],
   },
   {
