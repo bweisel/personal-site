@@ -29,20 +29,27 @@
     <p class="text-md text-gray-600">
       {{ experience.description }}
     </p>
-    <transition name="fade">
-      <ul
-        v-show="showBullets"
-        class="list-disc ml-5 mt-2 text-gray-500 text-sm"
-      >
-        <li
-          v-for="(bullet, index) in experience.bullets"
-          :key="index"
-          class="mb-1"
-        >
-          {{ bullet }}
-        </li>
-      </ul>
-    </transition>
+    <Transition
+      name="collapse"
+      @before-enter="onBeforeEnter"
+      @enter="onEnter"
+      @after-enter="onAfterEnter"
+      @before-leave="onBeforeLeave"
+      @leave="onLeave"
+      @after-leave="onAfterLeave"
+    >
+      <div v-if="showBullets" class="collapse-wrap pt-2">
+        <ul class="list-disc ml-5 text-gray-500 text-sm">
+          <li
+            v-for="(bullet, index) in experience.bullets"
+            :key="index"
+            class="mb-1"
+          >
+            {{ bullet }}
+          </li>
+        </ul>
+      </div>
+    </Transition>
     <button
       v-if="experience.bullets && experience.bullets.length"
       @click="showBullets = !showBullets"
@@ -70,17 +77,68 @@ const props = defineProps({
 });
 const { experience } = props;
 const showBullets = ref(false);
+
+const prefersReducedMotion = () => {
+  if (typeof window === "undefined") return false;
+  return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+};
+
+const onBeforeEnter = (el) => {
+  el.style.height = "0px";
+  el.style.opacity = "0";
+};
+
+const onEnter = (el) => {
+  if (prefersReducedMotion()) {
+    el.style.height = "auto";
+    el.style.opacity = "1";
+    return;
+  }
+
+  el.style.transition =
+    "height 320ms cubic-bezier(0.2, 0.0, 0, 1), opacity 220ms ease";
+  void el.offsetHeight;
+  requestAnimationFrame(() => {
+    el.style.height = `${el.scrollHeight}px`;
+    el.style.opacity = "1";
+  });
+};
+
+const onAfterEnter = (el) => {
+  el.style.height = "auto";
+  el.style.transition = "";
+};
+
+const onBeforeLeave = (el) => {
+  el.style.height = `${el.scrollHeight}px`;
+  el.style.opacity = "1";
+};
+
+const onLeave = (el) => {
+  if (prefersReducedMotion()) {
+    el.style.height = "0px";
+    el.style.opacity = "0";
+    return;
+  }
+
+  el.style.transition =
+    "height 240ms cubic-bezier(0.4, 0.0, 0.6, 1), opacity 160ms ease";
+  void el.offsetHeight;
+  requestAnimationFrame(() => {
+    el.style.height = "0px";
+    el.style.opacity = "0";
+  });
+};
+
+const onAfterLeave = (el) => {
+  el.style.height = "";
+  el.style.opacity = "";
+  el.style.transition = "";
+};
 </script>
 
 <style scoped>
-.fade-enter-active {
-  transition: opacity 0.25s ease;
-}
-.fade-leave-active {
-  transition: opacity 0.15s ease-out;
-}
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
+.collapse-wrap {
+  overflow: hidden;
 }
 </style>
