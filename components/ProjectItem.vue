@@ -9,15 +9,15 @@
           :alt="project.name"
           loading="lazy"
         />
-        <NuxtLink
-          :to="project.link"
+        <a
+          :href="project.link"
           class="hover:underline hover:text-black"
           target="_blank"
           rel="noopener noreferrer"
           :title="project.name"
         >
           {{ project.name }}
-        </NuxtLink>
+        </a>
         <span
           v-if="project.startDate && project.endDate"
           class="pl-1 text-base text-gray-900 font-light"

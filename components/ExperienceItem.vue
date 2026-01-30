@@ -9,15 +9,15 @@
           :alt="experience.company"
           loading="lazy"
         />
-        <NuxtLink
-          :to="experience.link"
+        <a
+          :href="experience.link"
           class="hover:underline hover:text-black"
           target="_blank"
           rel="noopener noreferrer"
           :title="experience.company"
         >
           {{ experience.company }}
-        </NuxtLink>
+        </a>
       </div>
     </h3>
     <p class="text-base text-gray-600 font-bold mb-1">

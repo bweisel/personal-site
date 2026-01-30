@@ -20,27 +20,27 @@
       </p>
       <ul class="mt-4 uppercase tracking-wider">
         <li class="inline list-none pr-4">
-          <NuxtLink
+          <a
             class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
             :href="`mailto:${profile.email}`"
           >
             <img src="/email_icon.svg" width="35" height="35" alt="Email Me" />
-          </NuxtLink>
+          </a>
         </li>
         <li class="inline list-none pr-4">
-          <NuxtLink
+          <a
             class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
-            :to="profile.github"
+            :href="profile.github"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src="/github_icon.svg" width="35" height="35" alt="GitHub" />
-          </NuxtLink>
+          </a>
         </li>
         <li class="inline list-none pr-4">
-          <NuxtLink
+          <a
             class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
-            :to="profile.linkedin"
+            :href="profile.linkedin"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -50,17 +50,17 @@
               height="35"
               alt="LinkedIn"
             />
-          </NuxtLink>
+          </a>
         </li>
         <li class="inline list-none pr-3">
-          <NuxtLink
+          <a
             class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
-            :to="profile.twitter"
+            :href="profile.twitter"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src="/twitter_icon.svg" width="35" height="35" alt="Twitter" />
-          </NuxtLink>
+          </a>
         </li>
       </ul>
     </div>
