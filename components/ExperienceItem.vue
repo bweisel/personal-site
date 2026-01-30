@@ -13,6 +13,7 @@
           :to="experience.link"
           class="hover:underline hover:text-black"
           target="_blank"
+          rel="noopener noreferrer"
           :title="experience.company"
         >
           {{ experience.company }}

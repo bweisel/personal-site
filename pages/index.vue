@@ -6,21 +6,21 @@
       <Header :profile="profile" />
 
       <!-- About Me-->
-      <Section :title="'About Me'">
+      <Section title="About Me">
         <About :about="about" />
       </Section>
 
       <!-- Experience -->
-      <Section :title="'Experience'">
+      <Section title="Experience">
         <ExperienceItem
-          v-for="experience in experiences"
-          :key="experience.name"
+          v-for="(experience, index) in experiences"
+          :key="`${experience.company}-${experience.title}-${experience.startDate}-${experience.endDate}-${index}`"
           :experience="experience"
         />
       </Section>
 
       <!-- Projects -->
-      <Section :title="'Projects'">
+      <Section title="Projects">
         <ProjectItem
           v-for="project in projects"
           :key="project.name"
@@ -29,7 +29,7 @@
       </Section>
 
       <!-- Skills -->
-      <Section :title="'Skills'">
+      <Section title="Skills">
         <SkillItem v-for="skill in skills" :key="skill.name" :skill="skill" />
       </Section>
     </div>
@@ -41,7 +41,7 @@ const profile = ref({
   name: "Ben Weisel",
   email: "bweisel@gmail.com",
   title: "Software Engineer",
-  image: "headshot.png", // Put any image in the public dir to reference here
+  image: "/headshot.png", // Put any image in the public dir to reference here
   subLine:
     "Software engineer and leader focused on doing interesting things with data.",
   twitter: "https://twitter.com/bweisel",

@@ -13,6 +13,7 @@
           :to="project.link"
           class="hover:underline hover:text-black"
           target="_blank"
+          rel="noopener noreferrer"
           :title="project.name"
         >
           {{ project.name }}

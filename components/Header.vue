@@ -32,6 +32,7 @@
             class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
             :to="profile.github"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img src="/github_icon.svg" width="35" height="35" alt="GitHub" />
           </NuxtLink>
@@ -41,6 +42,7 @@
             class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
             :to="profile.linkedin"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               src="/linkedin_icon.svg"
@@ -55,6 +57,7 @@
             class="inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black"
             :to="profile.twitter"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img src="/twitter_icon.svg" width="35" height="35" alt="Twitter" />
           </NuxtLink>
@@ -65,7 +68,6 @@
 </template>
 
 <script setup>
-import { ArrowTopRightOnSquareIcon } from "@heroicons/vue/24/solid";
 const props = defineProps({
   profile: {
     type: Object,
